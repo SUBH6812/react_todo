@@ -1,0 +1,53 @@
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*{margin:0 ;padding: 0;box-sizing: border-box;}
+/****************For heading*******************/
+.hh1 
+{background-color: green;color: white;
+  display: flex;justify-content: center;
+  width: 100%;height: 50px;align-items: center;}
+
+/*****************For nav bar ***************/
+  .nav
+  {display: flex;flex-direction: row;list-style-type: none;
+    justify-content: space-between;text-transform: capitalize;}
+
+    .nav1
+    {background-color:rgba(0,0, 250, .6);color: white;
+      width:20% ;padding: 15px 0;
+      text-align: center;border: 1px solid white;}
+
+      .nav1:hover{
+        background-color: rgba(0,0, 250, .9);
+      }
+/******************main bar*******************/
+      .main{}
+/********************aside-1******************/
+      .main-1{
+        background-color: rgba(0, 0, 0, .7);width: 29.6%;float: left;margin: 0.2%;
+        display: flex;justify-content: center
+      }
+      .con{background-color: white;width: 50%;margin: 2%;}
+      .con2{list-style-type: none;}
+      .con1{background-color:rgba(0,0, 250, .6);color: white;
+      width:50% ;padding: 15px 0;float: left;
+      text-align: center;border: 1px solid white;}
+
+/********************aside-2******************/
+      .main-2{background-color: rgba(0, 0, 0, .9);width: 69.6%;float: left;margin: 0.2%;color: white;}
+      .hh2{text-align: center;background-color:rgba(250, 0, 250, 1.0);}
+
+      /**********space********/
+      .space{width: 100%;background-color: green;height:px;display: flex;justify-content: center;align-items: center;}
+      .space1{width: 60%;background-color: red;height: 200px;margin-top:2%;margin-bottom: 2%;}
+
+/*********************flower******************/
+.flw-main{width: 100%;}
+.flw-main1{width: 25%;background-color:;height:;margin: 0.5%;float: left;}
+

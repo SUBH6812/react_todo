@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<style type="text/css">
+*{margin: 0;padding: 0;box-sizing: border-box;}
+h1{padding: 10px auto;background-color: violet;
+color: #fff;text-transform: capitalize;text-align: center;margin: 0 1%;position: -webkit-sticky;position: sticky;top: 0px;}
+ul{
+	list-style-type: none;;
+}	
+li{padding: 10px;margin-bottom: 10px;background-color: rgba(0, 0, 250, .7);color: #fff;}
+#demo2,#demo3{background-color: rgba(0, 0, 250, .7);color: #fff; ;}
+#demo1{width: 23%;}
+#demo2{width: 48%;}
+#demo3{width: 23%;}
+footer{background-color: rgba(0, 0, 250, .7);color: #fff;clear: both;margin: 1%;}
+footer p{padding: 45px auto;font-size: 20px;text-align: center;}
+p,h2,h3{padding: 15px;}
+.demo4{float: left;margin:1%;}
+img{width: 96%;height: auto;margin: 2%;border-radius: 2%;}
+
+#demo2:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+@media (max-width: 700px){
+	#demo3{width: 98%;margin: 1%;}
+	#demo1{width: 30%;margin: 1%;}
+	#demo2{width: 66%;margin: 1%;}
+}
+@media (max-width: 480px){
+	#demo2{width: 98%;margin: 1%;}
+	#demo1{width: 98%;margin: 1%;}
+}
+
+</style>
+<body>
+<h1 id="btn">chania</h1>
+<div id="demo">
+<section id="demo1"class="demo4">
+	<ul>
+		<li class="nav1">The Flight</li>
+		<li class="nav1">The City</li>
+		<li class="nav1">The Island</li>
+		<li class="nav1">The Food</li>
+	</ul>
+</section>
+<section id="demo2"class="demo4">
+	<h2>The City</h2>
+	<p>Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
+	<img id="img1" src="2.jpg">
+</section>
+<section id="demo3"class="demo4">
+	<h3>What?</h3>
+	<p>Chania is a city on the island of Crete.</p>
+	<h3>Where?</h3>
+	<p>Crete is a Greek island in the Mediterranean Sea.</p>
+	<h3>How?</h3>
+	<p>You can reach Chania airport from all over Europe.</p>
+
+</section>
+</div>
+<footer>
+	<p>Resize the browser window to see how the content respond to the resizing.</p>
+</footer>
+
+<script type="text/javascript">
+var b=document.getElementById("btn");
+b.addEventListener("click",myfun);
+var i=0;	
+function myfun(){
+console.log(i);
+	//b.style.backgroundColor="yellow";
+document.getElementById("img1").src = (1+i)+'.jpg';
+
+i++;
+if(parseInt(i)===46){
+i = 0;
+}
+}
+
+
+
+
+
+
+
+</script>
+</body>
+</html>
