@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import Todo from "./todo/Todo";
+import Todo1 from "./todo/Todo1";
 
 
 
@@ -9,7 +9,7 @@ ReactDOM.render(
   <div>
   
 
-  <Todo />
+  <Todo1 />
 
   </div>,
   document.getElementById("root"));
